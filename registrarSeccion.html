@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Panteon - Registrar Seccion</title>
+		<link rel="stylesheet" href="css/estilo1.css">
+	</head>
+	<body>
+		<head>
+			<style type="text/css">
+				<!--
+					body {
+					 	background-image: url(img/pant.jpg);
+						background-position: center center;	  
+						background-repeat: no-repeat;
+						background-attachment: fixed;
+						background-size: cover;
+					}
+			
+					#mail {
+						width: 100%;
+						position: fixed;
+					}
+				-->
+			</style>
+		</head>
+		<header class="">
+			<div class="wrapper">
+				<div class="logo">PanteonTeoti</div>
+				<nav>
+					<a href="inicioS.html">Inicio</a>
+					<a href="registrarDifunto.html">R. Difunto</a>
+					<a href="registrarTumba.html">R. Tumba </a>
+					<a href="registrarResponsable.html">R. Responsable</a>
+					<a href="registrarDocumentacion.html">R. Documentación</a>
+					<a href="registrarSeccion.html">R. Sección</a>
+				</nav>
+			</div>
+		</header>
+		<form action="registrarSeccion" method="post" class="form-register">
+			<h2 class="form-titulo">Registrar Sección</h2>
+			<div class="contenedor-inputs">
+				<h3> Asigne un Id </h3>
+				<input type="text" id="id_seccion" name="id_seccion" placeholder="Id" class="input-100" required>
+				<h3> Ingrese el Nombre de la Sección </h3>
+				<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-100" required>
+				<p></p>
+				<button class="btn-enviar">Registrar</button>
+				<button class="btn-enviar"><a href="registrarSeccion.html">Cancelar</a></button>
+				<p><h3>     </h3></p>
+				<p><h4>  .  </h4></p>
+			</div>
+		</form>
+	</body>
+</html>

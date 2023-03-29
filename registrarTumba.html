@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Panteon - Registrar Tumba</title>
+		<link rel="stylesheet" href="css/estilo1.css">
+	</head>
+	<body>
+		<head>
+			<style type="text/css">
+				<!--
+					body {
+					 	background-image: url(img/pant.jpg);
+						background-position: center center;	  
+						background-repeat: no-repeat;
+						background-attachment: fixed;
+						background-size: cover;
+					}
+			
+					#mail {
+						width: 100%;
+						position: fixed;
+					}
+				-->
+			</style>
+		</head>
+		<header class="">
+			<div class="wrapper">
+				<div class="logo">PanteonTeoti</div>
+				<nav>
+					<a href="inicioS.html">Inicio</a>
+					<a href="registrarDifunto.html">R. Difunto</a>
+					<a href="registrarTumba.html">R. Tumba </a>
+					<a href="registrarResponsable.html">R. Responsable</a>
+					<a href="registrarDocumentacion.html">R. Documentación</a>
+					<a href="registrarSeccion.html">R. Sección</a>
+				</nav>
+			</div>
+		</header>
+		<form action="registrarTumba" method="post" class="form-register">
+			<h2 class="form-titulo">Registrar Tumba</h2>
+			<div class="contenedor-inputs">
+				<h3> Asigne un Id </h3>
+				<input type="text" id="id_tumba" name="id_tumba" placeholder="Id" class="input-100" required>
+				<h3> Ingrese con Quién Colinda al Oeste </h3>
+				<input type="text" id="colind_poniente" name="colind_poniente" placeholder="Colindancia Poniente" class="input-100" required>
+				<h3> Ingrese con Quién Colinda al Norte </h3>
+				<input type="text" id="colind_norte" name="colind_norte" placeholder="Colindancia Norte" class="input-100" required>
+				<h3> Ingrese con Quién Colinda al Sur </h3>
+				<input type="text" id="colind_sur" name="colind_sur" placeholder="Colindancia Sur" class="input-100" required>
+				<h3> Ingrese con Quién Colinda al Este </h3>
+				<input type="text" id="colind_oriente" name="colind_oriente" placeholder="Colindancia Oriente" class="input-100" required>
+				<h3> Asigne Id de Sección perteneciente de la Tumba </h3>
+				<input type="text" id="id_seccion" name="id_seccion" placeholder="Id" class="input-100" required>
+				<p></p>
+				<button class="btn-enviar">Registrar</button>
+				<button class="btn-enviar"><a href="registrarTumba.html">Cancelar</a></button>
+				<p><h3>     </h3></p>
+				<p><h4>  .  </h4></p>
+			</div>
+		</form>
+	</body>
+</html>

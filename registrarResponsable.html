@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Panteon - Registrar Responsable</title>
+		<link rel="stylesheet" href="css/estilo1.css">
+	</head>
+	<body>
+		<head>
+			<style type="text/css">
+				<!--
+					body {
+					 	background-image: url(img/pant.jpg);
+						background-position: center center;	  
+						background-repeat: no-repeat;
+						background-attachment: fixed;
+						background-size: cover;
+					}
+			
+					#mail {
+						width: 100%;
+						position: fixed;
+					}
+				-->
+			</style>
+		</head>
+		<header class="">
+			<div class="wrapper">
+				<div class="logo">PanteonTeoti</div>
+				<nav>
+					<a href="inicioS.html">Inicio</a>
+					<a href="registrarDifunto.html">R. Difunto</a>
+					<a href="registrarTumba.html">R. Tumba </a>
+					<a href="registrarResponsable.html">R. Responsable</a>
+					<a href="registrarDocumentacion.html">R. Documentación</a>
+					<a href="registrarSeccion.html">R. Sección</a>
+				</nav>
+			</div>
+		</header>
+		<form action="registrarResponsable" method="post" class="form-register">
+			<h2 class="form-titulo">Registrar Responsable</h2>
+			<div class="contenedor-inputs">
+				<h3> Asigne un Id </h3>
+				<input type="text" id="id_responsable" name="id_responsable" placeholder="Id" class="input-100" required>
+				<h3> Ingrese el Nombre </h3>
+				<input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-100" required>
+				<h3> Ingrese el Apellido Paterno </h3>
+				<input type="text" id="ap_paterno" name="ap_paterno" placeholder="Apellido Paterno" class="input-100" required>
+				<h3> Ingrese el Apellido Materno </h3>
+				<input type="text" id="ap_materno" name="ap_materno" placeholder="Apellido Materno" class="input-100" required>
+				<h3> Ingrese el Comprobante de Domicilio </h3>
+				<input type="text" id="comp_domicilio" name="comp_domicilio" placeholder="Comprobante Domicilio" class="input-100" required>
+				<h3> Ingrese el Número de Teléfono </h3>
+				<input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="input-100" required>
+				<p></p>
+				<button class="btn-enviar">Registrar</button>
+				<button class="btn-enviar"><a href="registrarResponsable.html">Cancelar</a></button>
+				<p><h3>     </h3></p>
+				<p><h4>  .  </h4></p>
+			</div>
+		</form>
+	</body>
+</html>
